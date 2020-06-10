@@ -1,14 +1,14 @@
 spring:
-	profiles:
-		active:
-		- dev
+  profiles:
+    active:
+      - dev
 ---
 spring:
-	profiles: dev		#开发环境
-	application:
-		name: microservicecloud-config-jianjian-dev
+  profiles: dev		#开发环境
+    application:
+      name: microservicecloud-config-jianjian-dev
 ---
 spring:
-	profiles: test		#测试环境
-	application:
-		name: microservicecloud-config-jianjian-test
+  profiles: test		#测试环境
+  application:
+    name: microservicecloud-config-jianjian-test
